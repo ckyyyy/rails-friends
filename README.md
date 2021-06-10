@@ -1,24 +1,28 @@
-# README
+# Rails Friends App
+## Start the app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+rails s
+```
+and then go to http://localhost:3000/
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+## Simple UI
+### Sign Up
+![image](/image/sign-up.png)
 
-* Configuration
+### Sign In
+![image](/image/sign-in.png)
 
-* Database creation
+### Create Friend
+![image](/image/create-fd.png)
 
-* Database initialization
+### Show Friend's details after successfully created
+![image](/image/created-fd.png)
 
-* How to run the test suite
+### List Friend
+![image](/image/list-fd.png)
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Edit/Destory a friend when unauthorized
+![image](/image/edit-fd-error.png)
